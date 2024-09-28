@@ -1,10 +1,14 @@
 package org.example;
 
-abstract class Developer implements Employee{
-    abstract void info();
+public class Developer implements Employee{
 
     @Override
     public void display() {
-        System.out.println("Inside Developer display");
+        System.out.println("Inside Developer");
+    }
+
+    @Override
+    public void displayOrg(){
+        System.out.println("Practice developer org");
     }
 }

@@ -2,6 +2,11 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Employee developer= new Developer();
+        Employee it= new IT();
+        developer.display();
+        it.display();
+        developer.displayOrg();
+        it.displayOrg();
     }
 }
